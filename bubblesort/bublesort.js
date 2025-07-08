@@ -18,10 +18,12 @@ function bubbleSort (arr) {
 
 }
 
-let dummyData = [1,-1,3,6,1,-5,200,-10]
+// let dummyData = [1,-1,3,6,1,-5,200,-10]
 
-console.log(bubbleSort(dummyData));
+// console.log(bubbleSort(dummyData));
 
 // this time complexity is O(n^2);
 /* this mean amount of max steps we need for sorting array to become sorted array are amount of input n * n */
 // for example in dummy data n input length are 8 size so 8 * 8 is 64
+
+
