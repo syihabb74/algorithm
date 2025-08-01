@@ -59,7 +59,7 @@ function quickSort (unsortedArr) {
     return [...quickSort(left), pivot, ...quickSort(right)]
 }
 
-// Example usage
+// Example 
 console.log(quickSort([1,9,10,22,5,8,2,11]));
 ```
 
