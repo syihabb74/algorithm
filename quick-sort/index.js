@@ -1,5 +1,4 @@
 function quickSort (unsortedArr) {
-    console.log(unsortedArr.length < 2)
     if (unsortedArr.length < 2) return unsortedArr;
     let pivot = unsortedArr[unsortedArr.length - 1];
     const left = [];
@@ -11,7 +10,7 @@ function quickSort (unsortedArr) {
             right.push(unsortedArr[i]);
         }
     }
-    return [...quickSort(left), pivot, ...quickSort(right)]
+    return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
 
